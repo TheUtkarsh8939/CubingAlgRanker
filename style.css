@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(190, 105, 238) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+.cont{
+    height: 55%;
+    width: 50%;
+    background-color: black !important;
+    border-radius: 10px;
+    color: white;
+    font-family:sans-serif;
+    display: flex !important;
+    padding:25px;
+    align-items: center;
+    flex-direction: column;
+}
+.alginput{
+    height: 40px;
+    width:90%;
+    font-size: large;
+}
+.rgriplab{
+    margin-top: 5px;
+}
+#Regrip{
+    height: 25px;
+    width: 150px;
+}
+.right{
+    width: 100%;
+    height: 75%;
+}
+#advft{
+    margin-top:20px ;
+}
+.scr{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+#sub{
+    width: 100px;
+    height:50px;
+    font-size: 22px;
+    border-radius: 20px;
+    background-color: rgb(67, 191, 67);
+    color: white;
+}
+#scr{
+    height: 50px;
+    background-color: white;
+    width: 100px;
+    border-radius: 20px;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    place-items: center;
+    font-size: x-large;
+}
+

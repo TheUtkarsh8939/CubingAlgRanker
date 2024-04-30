@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubing Alg Ranker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="cont">
+        <h1>Rank Your Algs</h1>
+        <div class="right">
+            <input type="text" name="" id="alg" class="alginput" placeholder="Your Algorithm">
+        <label for="Regrip" class="rgriplab"><h4>Number Of Regrips Including Rotations</h4></label>
+        <input type="number" name="" id="Regrip" placeholder="Regrips">
+        <br><input type="checkbox" name="" id="advft"><label for="advft">Using Advanced Finger Tricks to Reduce Regrips/Overwork</label>
+        </div>
+        <div class="scr">
+            <button id="sub">Score</button>
+            <div id="scr" class="score"> </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("sub").onclick = () => {
+    let rawalg = document.getElementById("alg").value
+
+    let final_cc = score(rawalg) 
+    document.getElementById("scr").innerHTML = final_cc
+
+}
+    </script>
+</body>
+</html>
